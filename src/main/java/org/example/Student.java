@@ -2,7 +2,7 @@ package org.example;
 
 public class Student {
     //fields
-    //1. `String studentId`   // 6-digits starts with a character `S`. This id should be increased automatically.
+    //   1. `String studentId`   // 6-digits starts with a character `S`. This id should be increased automatically.
     //   2. `String studentName`
     //   3. `Gender gender`      // MALE FEMALE
     //   4. `Address address`
