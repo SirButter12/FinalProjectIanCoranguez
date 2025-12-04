@@ -42,13 +42,4 @@ class Department {
             this.departmentId = String.format("D%04i", nextId++);
         }
     }
-
-
-    //   3. toString
-
-    //   4. equals
-
-    //   5. getter   // for every field
-
-    //   6. setter   // for `departmentName`
 }

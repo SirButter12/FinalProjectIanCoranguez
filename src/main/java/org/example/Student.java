@@ -1,14 +1,24 @@
 package org.example;
 
+import java.security.SecureRandom;
+import java.util.ArrayList;
+
 public class Student {
     //fields
     //   1. `String studentId`   // 6-digits starts with a character `S`. This id should be increased automatically.
+    private String studentId;
     //   2. `String studentName`
+    private String studentName;
     //   3. `Gender gender`      // MALE FEMALE
+    private Gender gender;
     //   4. `Address address`
+    private Address address;
     //   5. `Department department`
+    private Department department;
     //   6. `ArrayList<Course> registeredCourses`
+    private ArrayList<Course> registeredCourses;
     //   7. `static int nextId`  // indicates the next ID that will be used
+    private static int nextId = 0;
 
     //methods
     /*1. `boolean registerCourse(Course course)` // registers a course, this method (1) adds the course to the student's `registeredCourses` list,
@@ -35,4 +45,8 @@ public class Student {
     //   6. equals
     //   7. getters
     //   8. setters
+    public enum Gender{
+        MALE, FEMALE
+    }
+
 }
